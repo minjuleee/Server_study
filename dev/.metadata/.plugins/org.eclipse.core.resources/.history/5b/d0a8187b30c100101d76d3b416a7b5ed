@@ -1,0 +1,17 @@
+package web;
+
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+
+@WebServlet("/MyServlet")
+public class MyServlet extends HttpServlet {
+	
+	public final String BLUE = "\033[94m";
+	public final String END = "\033[0m";
+	
+	public MyServlet() {
+		super();
+		System.out.println("MyServlet Created");
+	}
+	
+}

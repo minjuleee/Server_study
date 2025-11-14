@@ -1,0 +1,28 @@
+package web;
+
+import java.io.IOException;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+@WebServlet("/MyServlet")
+public class MyServlet extends HttpServlet {
+	
+	public final String BLUE = "\033[94m";
+	public final String END = "\033[0m";
+	
+	public MyServlet() {
+		super();
+		System.out.println(BLUE + "MyServlet Created" + END);
+	}
+	
+	protected void doGet(HttpServletRequest req,
+						HttpServletResponse res)
+		throws ServletException, IOException {
+		System.out.println(BLUE + "doGet Called" + END);
+	}
+	
+}

@@ -1,0 +1,8 @@
+package web;
+
+import jakarta.servlet.http.HttpServlet;
+
+@WebServlet("/MyServlet")
+public class MyServlet extends HttpServlet {
+	
+}
