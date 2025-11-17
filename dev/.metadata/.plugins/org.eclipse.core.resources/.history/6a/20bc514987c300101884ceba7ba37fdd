@@ -1,0 +1,41 @@
+package web;
+
+import java.io.IOException;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+@WebServlet("/Order")
+public class OrderServlet extends HttpServlet {
+	
+	public OrderServlet(){
+		super();
+		System.out.println("Order Servlet Created");
+	}
+	
+	protected void doGet(HttpServletRequest req,
+						HttpServletResponse res)
+	throws ServletException, IOException {
+		
+		// ramen과 loc을 입력으로 받는다면
+		String ramen = req.getParameter("ramen");
+		String loc = req.getParameter("loc");
+		
+		int price = 1000;
+		if(loc.equals("융프라우")) {
+			price = price * 10;
+		} else if(loc.equals("니네집")) {
+			price = 0;
+		}
+		
+		res.setContentType("text/html; charset=UTF-8");
+		PrintWriter out = res.getWriter();
+		out.println("<html><body>");
+		
+		
+	}
+						
+}

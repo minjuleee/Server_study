@@ -1,0 +1,8 @@
+package web;
+
+import jakarta.servlet.annotation.WebServlet;
+
+@WebServlet("/Order")
+public class OrderServlet {
+
+}

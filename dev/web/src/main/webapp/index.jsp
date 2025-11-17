@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<% String title = "Welcome to JSP!!"; %>
+	<h1><%=title %></h1>
+	<hr>
+	<a href="01_script_test.jsp">Script Test 1</a>
+</body>
+</html>

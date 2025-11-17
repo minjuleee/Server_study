@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>환영 합니다</h1>
+	<hr>
+	<h1>라면 주문하기</h1>
+	<form action="/web/Order">
+		어떤라면 : <input type="text" name="ramen"><br>
+		먹을장소 : <input type="text" name=loc"><br>
+		<input type="submit" value="주문하기">
+	</form>
+</body>
+</html>

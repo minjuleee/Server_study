@@ -1,0 +1,6 @@
+package web;
+
+@WebServlet("/Order")
+public class OrderServlet {
+
+}
