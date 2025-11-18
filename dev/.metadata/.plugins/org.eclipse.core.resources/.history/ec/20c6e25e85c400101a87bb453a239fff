@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page info="Date class를 이용한 현재 날짜 출력" %>
+<%@ page import="java.util.Date" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Directive</title>
+</head>
+<body>
+	<h1>Directive Tag</h1>
+	<hr>
+	<p>Today : <%=new Date() %></p>
+</body>
+</html>

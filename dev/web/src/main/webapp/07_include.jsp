@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Include</title>
+</head>
+<body>
+	<!-- header -->
+	<%@ include file="07_include_header.jsp" %>
+	
+	<!-- contents -->
+	<br><br><br><br>
+	<h2>이 부분은 제껍니다.<sup>진짜</sup></h2>
+	<br><br><br><br>
+	
+	<!-- footer -->
+	<%@ include file="07_include_footer.jsp" %>
+</body>
+</html>

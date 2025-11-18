@@ -12,6 +12,7 @@ import jakarta.servlet.http.HttpServletResponse;
 @WebServlet("/MyServlet")
 public class MyServlet extends HttpServlet {
 	
+	
 	public final String BLUE = "\033[94m";
 	public final String END = "\033[0m";
 	
@@ -24,7 +25,7 @@ public class MyServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest req,
 						HttpServletResponse res)
 		throws ServletException, IOException {
-		System.out.println(BLUE + "doPost Called" + END);
+		System.out.println(BLUE +  "doPost Called" + END);
 		
 		res.setContentType("text/html; charset=UTF-8");
 		PrintWriter out = res.getWriter();

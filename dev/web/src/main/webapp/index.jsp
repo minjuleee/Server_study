@@ -10,6 +10,12 @@
 	<% String title = "Welcome to JSP!!"; %>
 	<h1><%=title %></h1>
 	<hr>
-	<a href="01_script_test.jsp">Script Test 1</a>
+	<a href="01_script_test.jsp">Script Test 1</a><br/>
+	<a href="02_script_test.jsp">Script Test 2</a><br/>
+	<a href="03_script_test.jsp">Script Test 3</a><br/>
+	<a href="04_script_test.jsp">Script Test 4</a><br/>
+	<a href="05_directive.jsp">Directive Tag</a><br/>
+	<a href="07_include.jsp">Include Tag</a><br/>
+	
 </body>
 </html>
