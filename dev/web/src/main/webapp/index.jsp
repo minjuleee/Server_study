@@ -16,6 +16,9 @@
 	<a href="04_script_test.jsp">Script Test 4</a><br/>
 	<a href="05_directive.jsp">Directive Tag</a><br/>
 	<a href="07_include.jsp">Include Tag</a><br/>
-	
+	<a href="08_forward.jsp?site=naver">Forward Tag</a><br/>
+	<a href="09_param.jsp">Param Tag</a><br/>
+	<a href="10_cookie.jsp">Cookie</a><br/>
+	<a href="11_session.jsp">Session</a><br/>
 </body>
 </html>
